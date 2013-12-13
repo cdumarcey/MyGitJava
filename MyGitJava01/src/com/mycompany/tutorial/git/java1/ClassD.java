@@ -3,7 +3,7 @@ package com.mycompany.tutorial.git.java1;
 public class ClassD {
 	
 	private String name;
-	
+	private Integer number;
 	
 	
 	public String getName() {
@@ -12,6 +12,14 @@ public class ClassD {
 	
 	public void setName(String name) {
 		this.name = name;
+	}
+	
+	public Integer getNumber() {
+		return number;
+	}
+	
+	public void setNumber(Integer number) {
+		this.number = number;
 	}
 
 }
