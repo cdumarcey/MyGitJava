@@ -1,6 +1,6 @@
 package com.mycompany.tutorial.git.java1;
 
-public class ClassA {
+public class ClassD {
 	
 	private String name;
 	
