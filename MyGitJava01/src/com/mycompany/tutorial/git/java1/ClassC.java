@@ -4,6 +4,7 @@ public class ClassC {
 	
 	private String name;
 	private Integer number;
+	private String desc;
 	
 	
 	
