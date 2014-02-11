@@ -7,7 +7,8 @@ public class ClassD {
 	
 	
 	public String getName() {
-		return name;
+		if(this.name != null) return this.name.trim();
+		else return name;
 	}
 	
 	public void setName(String name) {
