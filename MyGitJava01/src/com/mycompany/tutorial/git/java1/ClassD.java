@@ -4,6 +4,7 @@ public class ClassD {
 	
 	private String name;
 	private Integer number;
+	private String title;
 	
 	
 	public String getName() {
@@ -20,6 +21,14 @@ public class ClassD {
 	
 	public void setNumber(Integer number) {
 		this.number = number;
+	}
+	
+	public String getTitle() {
+		return title;
+	}
+	
+	public void setTitle(String title) {
+		this.title = title;
 	}
 
 }
