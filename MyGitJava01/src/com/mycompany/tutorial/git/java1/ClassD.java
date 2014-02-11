@@ -12,7 +12,8 @@ public class ClassD {
 	}
 	
 	public void setName(String name) {
-		this.name = name;
+		if(name != null) this.name = name.trim();
+		else this.name = name;
 	}
 	
 	public Integer getNumber() {
