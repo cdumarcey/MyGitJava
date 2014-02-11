@@ -8,11 +8,13 @@ public class ClassD {
 	
 	
 	public String getName() {
-		return name;
+		if(this.name != null) return this.name.trim();
+		else return name;
 	}
 	
 	public void setName(String name) {
-		this.name = name;
+		if(name != null) this.name = name.trim();
+		else this.name = name;
 	}
 	
 	public Integer getNumber() {
