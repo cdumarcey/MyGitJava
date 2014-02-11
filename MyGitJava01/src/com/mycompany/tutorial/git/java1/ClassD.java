@@ -1,10 +1,10 @@
 package com.mycompany.tutorial.git.java1;
 
-public class ClassB {
+public class ClassD {
 	
 	private String name;
-	private Integer number;	
-	private String birthdate;	
+	private Integer number;
+	
 	
 	public String getName() {
 		if(this.name != null) return this.name.trim();
@@ -12,18 +12,11 @@ public class ClassB {
 	}
 	
 	public void setName(String name) {
-		this.name = name;
+		if(name != null) this.name = name.trim();
+		else this.name = name;
 	}
 	
-	public String getBirthdate() {
-		return birthdate;
-	}
-	
-	public void setBirthdate(String birthdate) {
-		this.birthdate = birthdate;
-	}
-
-public Integer getNumber() {
+	public Integer getNumber() {
 		return number;
 	}
 	
